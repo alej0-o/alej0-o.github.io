@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Marketing Digital Innovador</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #ecf0f1;
+            --background-color: #1a1a1a;
+            --card-bg: #2c3e50;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            font-weight: 300;
+            opacity: 0.9;
+            margin-top: 0.5rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        
+        .class-card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+            border-left: 4px solid var(--accent-color);
+            transition: transform 0.3s ease;
+        }
+        
+        .class-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        h2 {
+            color: var(--accent-color);
+            margin-top: 0;
+            font-size: 1.8rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            color: #bdc3c7;
+            margin-top: 1.5rem;
+            font-size: 1.3rem;
+        }
+        
+        ul, ol {
+            padding-left: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .highlight {
+            background-color: rgba(52, 152, 219, 0.2);
+            padding: 1.5rem;
+            border-radius: 6px;
+            margin: 1.5rem 0;
+            border-left: 3px solid var(--accent-color);
+        }
+        
+        .highlight-title {
+            font-weight: bold;
+            color: var(--accent-color);
+            margin-top: 0;
+        }
+        
+        footer {
+            background: var(--secondary-color);
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+        }
+        
+        .tag {
+            display: inline-block;
+            background: rgba(52, 152, 219, 0.2);
+            color: var(--accent-color);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+            }
+            
+            .class-card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Marketing Digital Innovador</h1>
+            <p class="subtitle">Estrategias y tecnologías para el éxito en la era digital</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <!-- Clase 1 -->
+        <article class="class-card">
+            <h2>Clase 1: Transformación Digital en las Empresas</h2>
+            
+            <h3>Ideas principales:</h3>
+            <ul>
+                <li>La transformación digital es un proceso necesario para la competitividad de las empresas en la era moderna.</li>
+                <li>Se basa en la integración de nuevas tecnologías para mejorar la eficiencia y la experiencia del cliente.</li>
+                <li>Implica cambios en la cultura organizacional, capacitación del talento humano y adopción de herramientas digitales.</li>
+            </ul>
+            
+            <h3>Ideas secundarias:</h3>
+            <ul>
+                <li>La digitalización permite automatizar procesos, reducir costos y mejorar la toma de decisiones basada en datos.</li>
+                <li>La nube, el Big Data y la inteligencia artificial son tecnologías clave en este proceso.</li>
+                <li>Empresas que no adopten la transformación digital pueden quedar rezagadas frente a la competencia.</li>
+            </ul>
+            
+            <div class="highlight">
+                <h4 class="highlight-title">Datos importantes:</h4>
+                <p><strong>Ventajas:</strong> Mayor eficiencia operativa, mejor servicio al cliente, acceso a nuevos mercados.</p>
+                <p><strong>Retos:</strong> Resistencia al cambio, inversión inicial alta, necesidad de capacitación.</p>
+                <p><strong>Ejemplo de éxito:</strong> Amazon, que ha revolucionado el comercio con Big Data y automatización.</p>
+            </div>
+            
+            <div>
+                <span class="tag">Transformación Digital</span>
+                <span class="tag">Tecnología</span>
+                <span class="tag">Innovación</span>
+            </div>
+        </article>
+        
+        <!-- Clase 2 -->
+        <article class="class-card">
+            <h2>Clase 2: Metodologías y herramientas para captar clientes en un entorno digital</h2>
+            
+            <h3>Ideas principales:</h3>
+            <ul>
+                <li>El proceso comercial digital tiene tres etapas:
+                    <ol>
+                        <li><strong>Potencial:</strong> No conoce la empresa ni compra.</li>
+                        <li><strong>Lead:</strong> Conoce la empresa, pero no compra.</li>
+                        <li><strong>Cliente:</strong> Conoce y compra.</li>
+                    </ol>
+                </li>
+                <li>Existen diferentes herramientas según la etapa del proceso comercial.</li>
+                <li>La segmentación y la digitalización de la base de datos (CRM) son clave para mejorar la conversión.</li>
+            </ul>
+            
+            <h3>Ideas secundarias:</h3>
+            <ul>
+                <li>Se deben usar estrategias como publicidad en redes, SEO y prospección en LinkedIn para atraer leads.</li>
+                <li>El inbound marketing y la automatización son esenciales para nutrir clientes potenciales.</li>
+                <li>La fidelización de clientes se logra con estrategias de upselling, newsletters y CRM.</li>
+            </ul>
+            
+            <div class="highlight">
+                <h4 class="highlight-title">Herramientas recomendadas:</h4>
+                <p><strong>Para captar nuevos clientes:</strong> LinkedIn Sales Navigator, SEMrush (SEO y publicidad).</p>
+                <p><strong>Para leads que no compran:</strong> CRM, automatización, retargeting con Facebook Pixel.</p>
+                <p><strong>Para clientes:</strong> Email marketing, CRM, remarketing y extranets B2B.</p>
+            </div>
+            
+            <div>
+                <span class="tag">Captación de Clientes</span>
+                <span class="tag">CRM</span>
+                <span class="tag">Automatización</span>
+            </div>
+        </article>
+        
+        <!-- Clase 3 -->
+        <article class="class-card">
+            <h2>Clase 3: IA Aplicada al Marketing Digital</h2>
+            
+            <h3>Ideas principales:</h3>
+            <ul>
+                <li>La inteligencia artificial (IA) transforma el marketing digital, optimizando estrategias y personalización.</li>
+                <li>Herramientas como Machine Learning, NLP y Visión por Computadora ayudan a mejorar la experiencia del usuario.</li>
+                <li>La IA permite automatizar procesos y mejorar la captación y conversión de leads.</li>
+            </ul>
+            
+            <h3>Ideas secundarias:</h3>
+            <ul>
+                <li>Existen múltiples herramientas de IA para generación de contenido: ChatGPT, Claude, Microsoft Copilot.</li>
+                <li>La IA se usa en CRM, automatización de atención al cliente y optimización del SEO.</li>
+                <li>Generadores de imágenes y videos con IA permiten crear contenido visual personalizado.</li>
+            </ul>
+            
+            <div class="highlight">
+                <h4 class="highlight-title">Aplicaciones de IA en marketing:</h4>
+                <p><strong>Análisis:</strong> Comportamiento de usuarios, segmentación avanzada, automatización de respuestas.</p>
+                <p><strong>Herramientas:</strong> ElevenLabs (generación de voz), Pika Art (videos con IA), Copilot (generación de imágenes).</p>
+                <p><strong>Casos de uso:</strong> Creación de campañas personalizadas, publicidad programática, automatización de interacción en redes sociales.</p>
+            </div>
+            
+            <div>
+                <span class="tag">Inteligencia Artificial</span>
+                <span class="tag">Automatización</span>
+                <span class="tag">Innovación</span>
+            </div>
+        </article>
+        
+        <!-- Clase 4 -->
+        <article class="class-card">
+            <h2>Clase 4: Mercado Digital Chino y Estrategias de Exportación</h2>
+            
+            <h3>Ideas principales:</h3>
+            <ul>
+                <li>China es el mercado de e-commerce más grande del mundo y sigue en crecimiento.</li>
+                <li>Existen dos modelos de negocio principales: B2B (negocios entre empresas) y B2C (venta directa al consumidor).</li>
+                <li>El <strong>Comercio Electrónico Transfronterizo (CET)</strong> permite vender en China sin necesidad de establecer una empresa en el país.</li>
+            </ul>
+            
+            <h3>Ideas secundarias:</h3>
+            <ul>
+                <li>El 90% de las ventas online en China se realizan a través de marketplaces.</li>
+                <li>Plataformas clave en China: <strong>Alibaba, JD.com, WeChat, Weibo, Douyin (TikTok chino).</strong></li>
+                <li>Existen modelos de logística con almacenamiento en zonas francas que facilitan la distribución.</li>
+            </ul>
+            
+            <div class="highlight">
+                <h4 class="highlight-title">Datos importantes:</h4>
+                <p><strong>Tamaño del mercado:</strong> China representa más del 50% del e-commerce mundial.</p>
+                <p><strong>Tendencias:</strong> Expansión de shopping festivals como el 11.11 (Día del Soltero).</p>
+                <p><strong>Estrategias recomendadas:</strong> Presencia en redes sociales chinas, uso de influencers (KOLs), inversión en marketing digital.</p>
+            </div>
+            
+            <div>
+                <span class="tag">Mercado Chino</span>
+                <span class="tag">E-commerce</span>
+                <span class="tag">Exportación</span>
+            </div>
+        </article>
+        
+        <!-- Clase 5 -->
+        <article class="class-card">
+            <h2>Clase 5: Marketing Analítico y Estrategias Online</h2>
+            
+            <h3>Ideas principales:</h3>
+            <ul>
+                <li>Una estrategia de marketing digital debe estar alineada con los objetivos del negocio y medirse constantemente.</li>
+                <li>El funnel de ventas es clave para optimizar la conversión y fidelización de clientes.</li>
+                <li>La analítica digital permite detectar oportunidades y mejorar la rentabilidad.</li>
+            </ul>
+            
+            <h3>Ideas secundarias:</h3>
+            <ul>
+                <li>El <strong>Modelo Digital Marketing & Measurement (DMMM)</strong> ayuda a definir objetivos, KPIs y metas.</li>
+                <li>La segmentación y la optimización de tráfico web son fundamentales para mejorar conversiones.</li>
+                <li>Estrategias como <strong>PPC, SEO, email marketing y contenido en redes sociales</strong> ayudan a captar leads.</li>
+            </ul>
+            
+            <div class="highlight">
+                <h4 class="highlight-title">Cálculo de objetivos de marketing:</h4>
+                <p><strong>Ejemplo:</strong> Empresa con 50,000 € de ingresos deseados:</p>
+                <ul>
+                    <li>Necesita 50 clientes al año.</li>
+                    <li>Requiere 10,000 visitas anuales con una tasa de conversión del 5%.</li>
+                </ul>
+                <p><strong>Costo de adquisición de clientes (CPA):</strong> Puede optimizarse mejorando el embudo de conversión y la fidelización.</p>
+                <p><strong>Casos de éxito:</strong> ThinkHandy y LocalSearchForDentists.com, que usaron marketing de contenidos y SEO para atraer clientes.</p>
+            </div>
+            
+            <div>
+                <span class="tag">Analítica</span>
+                <span class="tag">Estrategia Digital</span>
+                <span class="tag">ROI</span>
+            </div>
+        </article>
+        
+        <!-- Clase 6 -->
+        <article class="class-card">
+            <h2>Clase 6: Estrategias de Branding y Posicionamiento Digital</h2>
+            
+            <h3>Ideas principales:</h3>
+            <ul>
+                <li>El branding digital es clave para diferenciarse y construir una identidad fuerte en el mercado.</li>
+                <li>Una marca debe transmitir valores, misión y propósito para conectar con su audiencia.</li>
+                <li>La reputación online y la presencia en redes sociales influyen en la percepción del consumidor.</li>
+            </ul>
+            
+            <h3>Ideas secundarias:</h3>
+            <ul>
+                <li>Estrategias como el storytelling y el marketing emocional ayudan a crear una conexión con el público.</li>
+                <li>Las redes sociales y el contenido de valor fortalecen la relación con los clientes.</li>
+                <li>La coherencia en los mensajes y el diseño visual son esenciales para la identidad de marca.</li>
+            </ul>
+            
+            <div class="highlight">
+                <h4 class="highlight-title">Datos importantes:</h4>
+                <p><strong>Canales clave:</strong> Redes sociales, blogs, email marketing, SEO.</p>
+                <p><strong>Ejemplo de branding exitoso:</strong> Apple, que ha construido una identidad fuerte basada en innovación y diseño.</p>
+                <p><strong>Consejo clave:</strong> Escuchar a la audiencia y adaptar el mensaje según sus necesidades.</p>
+            </div>
+            
+            <div>
+                <span class="tag">Branding</span>
+                <span class="tag">Posicionamiento</span>
+                <span class="tag">Marca Personal</span>
+            </div>
+        </article>
+        
+        <!-- Clase 7 -->
+        <article class="class-card">
+            <h2>Clase 7: El Arte de Relacionarse en el Ámbito Profesional</h2>
+            
+            <h3>Ideas principales:</h3>
+            <ul>
+                <li>Las <strong>soft skills</strong> (habilidades blandas) son esenciales para el éxito profesional y la creación de oportunidades.</li>
+                <li>La marca personal y el networking son herramientas clave para el crecimiento profesional.</li>
+                <li>Es importante definir un plan estratégico para construir relaciones profesionales efectivas.</li>
+            </ul>
+            
+            <h3>Ideas secundarias:</h3>
+            <ul>
+                <li><strong>El networking efectivo</strong> implica identificar contactos clave, aportar valor y mantener relaciones a largo plazo.</li>
+                <li>Existen diferentes tipos de relaciones: formales, casuales y estratégicas.</li>
+                <li>La autenticidad y la empatía son esenciales en la comunicación profesional.</li>
+            </ul>
+            
+            <div class="highlight">
+                <h4 class="highlight-title">Datos importantes:</h4>
+                <p><strong>Soft skills más demandadas:</strong> comunicación efectiva, empatía, trabajo en equipo, liderazgo.</p>
+                <p><strong>Estrategia de networking:</strong> Tener objetivos claros, identificar contactos clave y aportar valor antes de pedir algo.</p>
+                <p><strong>Ejemplo de éxito:</strong> Ibai Llanos, que ha construido una red de contactos que le ha abierto grandes oportunidades.</p>
+            </div>
+            
+            <div>
+                <span class="tag">Soft Skills</span>
+                <span class="tag">Networking</span>
+                <span class="tag">Desarrollo Profesional</span>
+            </div>
+        </article>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2023 Blog de Marketing Digital Innovador. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
